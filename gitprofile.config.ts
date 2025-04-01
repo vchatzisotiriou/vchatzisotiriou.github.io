@@ -30,25 +30,6 @@ const CONFIG = {
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
     },
   },
   seo: {
@@ -74,7 +55,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://vchatzisotiriou.github.io/',
+    website: 'https://vchatzisotiriou.github.io',
     phone: '',
     email: 'vchatzisotiriou@tuc.gr',
   },
@@ -83,20 +64,17 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'Python',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'UML',
+    'Java',
+    'VHDL',
+    'Assembly',
+    'C',
   ],
   experiences: [
     {
@@ -143,11 +121,11 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
@@ -202,11 +180,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://vchatzisotiriou.github.io/"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with ❤️`,
 
   enablePWA: true,
 };
