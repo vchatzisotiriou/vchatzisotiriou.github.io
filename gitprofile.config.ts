@@ -102,7 +102,7 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Technical University of Crete Name',
+      institution: 'Technical University of Crete',
       degree: 'Master',
       from: '2023',
       to: '2027',
